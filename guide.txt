@@ -1,0 +1,28 @@
+*** FZF Explorer ***
+- dependency packages:
+fzf
+bat
+chafa
+
+- optional packages:
+libreoffice (for opening documents)
+zathura (for opening pdfs)
+mpv (for playing videos)
+nano (for editing text files)
+gimp (for xcf files)
+
+- keybinds:
+left-arrow = go back
+right-arrow = open selected file/directory
+shift + up-arrow = display preview bar
+shift + up-down = hide preview bar
+ctrl + d = create directory
+ctrl + f = create file/files
+ctrl + r = rename file/directory
+ctrl + t = move selected file/directory to trash
+enter = permanently delete selected file/directory
+ctrl + c = copy selected file/directory to temp folder
+ctrl + m = move selected file/directory to temp folder
+ctrl + g = paste all copied file/directory
+space = toggle multi-select
+esc = exit
